@@ -13,13 +13,13 @@ Pod::Spec.new do |spec|
     spec.license = { :type => 'MIT', :file => 'LICENSE.txt' }
     spec.author = { 'Dave Wood' => 'cocoapods@cerebralgardens.com' }
     spec.social_media_url = 'http://twitter.com/DaveWoodX'
-    spec.platforms = { :ios => '8.0', :watchos => '2.0', :tvos => '9.0' }
+    spec.platforms = { :ios => '10.0', :watchos => '2.0', :tvos => '9.0' }
+    spec.swift_version = '5.0'
     spec.requires_arc = true
-    spec.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 
     spec.source = { :git => 'https://github.com/bronenos/XCGLogger.git', :tag => "#{spec.version}" }
 
-    spec.ios.deployment_target = '8.0'
+    spec.ios.deployment_target = '10.0'
     spec.osx.deployment_target = '10.10'
     spec.watchos.deployment_target = '2.0'
     spec.tvos.deployment_target = '9.0'
@@ -31,7 +31,6 @@ Pod::Spec.new do |spec|
         core.dependency 'ObjcExceptionBridging'
         core.source_files = 'Sources/XCGLogger/**/*.{swift}'
         core.exclude_files = 'Sources/XCGLogger/**/Optional/*.{swift}'
-        core.resource = '.swift-version'
     end
 
     # An experimental subspec to include helpers for using the UserInfo dictionary with log messages, tagging logs with tags and/or developers
