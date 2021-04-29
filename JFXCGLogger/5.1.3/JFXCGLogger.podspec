@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 
 	# Main XCGLogger Framework
 	spec.subspec 'Core' do |core|
-		core.dependency 'JFObjcExceptionBridging'
+		core.dependency 'JFObjcExceptionBridging', '1.0.1'
 		core.source_files = 'Sources/XCGLogger/**/*.{swift}'
 		core.exclude_files = 'Sources/XCGLogger/**/Optional/*.{swift}'
 	end
