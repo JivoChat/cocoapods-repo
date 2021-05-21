@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
   # spec.resource    = 'JivoSDK/Assets.xcassets', 'JivoSDK/*.lproj'
 
   spec.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
     'BUILD_LIBRARIES_FOR_DISTRIBUTION' => 'YES'
   }
 
