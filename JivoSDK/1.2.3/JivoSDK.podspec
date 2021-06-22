@@ -58,7 +58,7 @@ Pod::Spec.new do |spec|
   spec.dependency      'JMShared', '1.3.0'
   spec.dependency      'JMCodingKit', '5.0.1'
   spec.dependency      'JMRepicKit', '1.0.1'
-  spec.dependency      'JMTimelineKit', '1.1.2'
+  spec.dependency      'JMTimelineKit', '1.1.3'
   spec.dependency      'JMMarkdownKit', '1.1.2'
   spec.dependency      'JMDesignKit', '1.0.0'
   spec.dependency      'JMOnetimeCalculator', '1.0.0'
