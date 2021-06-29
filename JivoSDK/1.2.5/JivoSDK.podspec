@@ -53,7 +53,7 @@ Pod::Spec.new do |spec|
   spec.dependency      'CollectionAndTableViewCompatible'
 
 # JMSpecsRepo dependencies
-  spec.dependency      'JMShared', '1.3.0'
+  spec.dependency      'JMShared', '1.3.1'
   spec.dependency      'JMCodingKit', '5.0.1'
   spec.dependency      'JMRepicKit', '1.0.1'
   spec.dependency      'JMTimelineKit', '1.1.4'
