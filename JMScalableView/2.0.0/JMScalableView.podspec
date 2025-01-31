@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
     spec.authors      = { 'Stan Potemkin' => 'potemkin@jivosite.com' }
     spec.summary      = 'JMScalableView'
   
-    spec.ios.deployment_target  = '10.0'
+    spec.ios.deployment_target  = '12.0'
   
     spec.source       = { :git => 'https://github.com/JivoChat/JMScalableView.git', :tag => "v#{spec.version}" }
     spec.source_files = '**/*.{h,m,swift}'
